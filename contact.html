@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Pink Flower Creations</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Pink Flower Creations</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
     <h1>Contact Us</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <p class="subtitle">We’d love to hear from you! 💌</p>
   </header>
-  <section>
-    <h2>Let's Chat 💬</h2>
-    <p>Email: <a href="mailto:pinkflowercreations@gmail.com">pinkflowercreations@gmail.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/pink_flower_creations">@pinkflowercreations</a></p>
-    <p>Location: South Africa</p>
+
+  <section class="contact-section">
+    <form class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="What would you like to ask or order?" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
   </section>
+
   <footer>
-    <p>&copy; 2024 Pink Flower Creations</p>
+    <p>&copy; 2025 Pink Flower Creations 🌸</p>
   </footer>
 </body>
 </html>
