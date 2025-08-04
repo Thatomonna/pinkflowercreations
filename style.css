@@ -107,9 +107,13 @@ footer {
 }
 
 .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 2rem;
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4); /* black with 40% opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .products {
