@@ -6,14 +6,10 @@ body {
 }
 
 .hero {
-  background: url("images/hero-bg.jpg") center/cover no-repeat;
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  position: relative;
 }
 
 .hero::before {
